@@ -44,6 +44,7 @@ Then you should be able to compile the code:
 
 In our experiment, we disabled the adaptive batching in NIC and the irqbalance:
 
+      sudo ifconfig ens1f1np1 mtu 3000 up
       sudo ethtool -C ens1f1np1 adaptive-rx off adaptive-tx off rx-frames 1 rx-usecs 0  tx-frames 1 tx-usecs 0
       sudo ethtool -C ens1f1np1 adaptive-rx off adaptive-tx off rx-frames 1 rx-usecs 0  tx-frames 1 tx-usecs 0
       sudo ethtool -L ens1f1np1 combined 1
