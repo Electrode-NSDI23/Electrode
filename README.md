@@ -48,7 +48,6 @@ In our experiment, we disabled the adaptive batching in NIC and the irqbalance:
       (let CPU=0; cd /sys/class/net/ens1f1np1/device/msi_irqs/;
          for IRQ in *; do
             echo $CPU | sudo tee /proc/irq/$IRQ/smp_affinity_list
-            let CPU+=1
          done)
 
 Then you need to create a config file like (example in `./config.txt`)
