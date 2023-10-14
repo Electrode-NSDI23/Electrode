@@ -88,15 +88,10 @@ In the end of the client run, you can get the elapsed time (which can be used to
 ## Cite this work
 BibTex:
 
-      @inproceedings {286467,
-         author = {Yang Zhou and Zezhou Wang and Sowmya Dharanipragada and Minlan Yu},
-         title = {Electrode: Accelerating Distributed Protocols with {eBPF}},
-         booktitle = {20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
-         year = {2023},
-         isbn = {978-1-939133-33-5},
-         address = {Boston, MA},
-         pages = {1391--1407},
-         url = {https://www.usenix.org/conference/nsdi23/presentation/zhou},
-         publisher = {USENIX Association},
-         month = apr,
-      } 
+      @inproceedings{zhou2023electrode,
+        title={{Electrode: Accelerating Distributed Protocols with eBPF}},
+        author={Zhou, Yang and Wang, Zezhou and Dharanipragada, Sowmya and Yu, Minlan},
+        booktitle={20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)},
+        pages={1391--1407},
+        year={2023}
+      }
